@@ -1,4 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+nav > h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.primary-button{
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: azure;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(253, 110, 10, 1);
+}
+nav > h1 span{
+    color: rgba(253, 110, 10, 1);
 }
